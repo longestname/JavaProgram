@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="537.0" prefWidth="594.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="master.Controller">
+   <VBox onKeyPressed="#pressKey" spacing="5" AnchorPane.bottomAnchor="10" AnchorPane.leftAnchor="0"
+         AnchorPane.rightAnchor="0" AnchorPane.topAnchor="10">
+      <Label alignment="CENTER" prefHeight="20.0" prefWidth="558.0" text="快捷键管理" textAlignment="CENTER">
+         <font>
+            <Font size="23.0"/>
+         </font>
+      </Label>
+
+      <TableView fx:id="tableview" editable="true">
+         <columns>
+            <TableColumn fx:id="DescriptionCol" prefWidth="147.0" text="描述"/>
+            <TableColumn fx:id="KeyCol" prefWidth="100" text="前缀"/>
+            <TableColumn fx:id="StrsCol" prefWidth="161" text="快捷键"/>
+            <TableColumn fx:id="OperationCol" prefWidth="200" text="操作"/>
+         </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+         </columnResizePolicy>
+      </TableView>
+
+      <HBox spacing="5">
+         <TextField fx:id="addDescription" prefHeight="30.0" prefWidth="147.0" promptText="描述"/>
+         <TextField fx:id="addKey" prefHeight="30.0" prefWidth="100" promptText="前缀"/>
+         <TextField fx:id="addStrs" prefHeight="30.0" prefWidth="161.0" promptText="快捷键"/>
+         <TextField fx:id="addOperation" prefHeight="30.0" prefWidth="200" promptText="操作"/>
+      </HBox>
+
+      <HBox alignment="BOTTOM_CENTER" spacing="50">
+         <Button alignment="CENTER" contentDisplay="CENTER" onAction="#clickAddButton" prefWidth="60" text="添加"/>
+         <Button contentDisplay="RIGHT" onAction="#remove" prefWidth="60" text="移除" textAlignment="CENTER"/>
+      </HBox>
+
+   </VBox>
+
+</AnchorPane>

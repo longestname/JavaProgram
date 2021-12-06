@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JavaProgram:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaProgram_jar</output-path>
+    <root id="archive" name="JavaProgram.jar">
+      <element id="module-output" name="JavaProgram" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/lib/sqlite-jdbc-3.32.3.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../javafx-sdk-17.0.1/lib/src.zip" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../javafx-sdk-17.0.1/lib/javafx-swt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../javafx-sdk-17.0.1/lib/javafx.web.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../javafx-sdk-17.0.1/lib/javafx.base.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../javafx-sdk-17.0.1/lib/javafx.fxml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../javafx-sdk-17.0.1/lib/javafx.media.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../javafx-sdk-17.0.1/lib/javafx.swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../javafx-sdk-17.0.1/lib/javafx.controls.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../javafx-sdk-17.0.1/lib/javafx.graphics.jar" path-in-jar="/" />
+      <element id="dir-copy" path="$PROJECT_DIR$/../../javafx-sdk-17.0.1/bin" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/lib/sqlite-jdbc-3.32.3.2.jar" />
+    </root>
+  </artifact>
+</component>
